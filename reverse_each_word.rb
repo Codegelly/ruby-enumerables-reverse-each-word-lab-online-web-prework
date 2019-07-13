@@ -1,5 +1,5 @@
 def reverse_each_word(string)
-  return string.split(" ").map{|i| i.reverse!}
+  return string.split(" ").map{|i| i.reverse!}.join(" ")
 # return array.each("Hello there, and how are you?" )
 end 
 
